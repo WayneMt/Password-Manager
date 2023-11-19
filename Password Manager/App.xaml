@@ -1,0 +1,30 @@
+﻿<Application x:Class="Password_Manager.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Password_Manager"
+             xmlns:viewModel="clr-namespace:Password_Manager.MVVM.ViewModel"
+             xmlns:view="clr-namespace:Password_Manager.MVVM.View"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/TextBoxTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            
+            <DataTemplate DataType="{x:Type viewModel:MyVaultViewModel}">
+                <view:MyVaultView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:FavouritesViewModel}">
+                <view:FavouritesView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:PaymentsViewModel}">
+                <view:PaymentsView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:PasswordGeneratorViewModel}">
+                <view:PasswordGeneratorView/>
+            </DataTemplate>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,79 @@
+﻿<UserControl x:Class="Password_Manager.MVVM.View.MyVaultView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Password_Manager.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel>
+        <TextBlock Text="My Vault"
+                   Foreground="White"
+                   FontSize="28"
+                   HorizontalAlignment="Left"
+                   Margin="10,0,0,20"/>
+
+        <StackPanel Orientation="Vertical">
+            <Grid>
+                <Label Content="Account #1" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0"/>
+                <Button Content="Copy Email" HorizontalAlignment="Right" Margin="0,9,190,11" Width="85"/>
+                <Button Content="Copy Password" HorizontalAlignment="Right" Margin="0,9,100,11" Width="85"/>
+                <Button Content="View Contents" HorizontalAlignment="Right" Margin="0,9,10,11" Width="85"/>
+            </Grid>
+            <Grid>
+                <Label Content="Account #2" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0"/>
+                <Button Content="Copy Email" HorizontalAlignment="Right" Margin="0,9,190,11" Width="85"/>
+                <Button Content="Copy Password" HorizontalAlignment="Right" Margin="0,9,100,11" Width="85"/>
+                <Button Content="View Contents" HorizontalAlignment="Right" Margin="0,9,10,11" Width="85"/>
+            </Grid>
+            <Grid>
+                <Label Content="Account #3" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0"/>
+                <Button Content="Copy Email" HorizontalAlignment="Right" Margin="0,9,190,11" Width="85"/>
+                <Button Content="Copy Password" HorizontalAlignment="Right" Margin="0,9,100,11" Width="85"/>
+                <Button Content="View Contents" HorizontalAlignment="Right" Margin="0,9,10,11" Width="85"/>
+            </Grid>
+            <Grid>
+                <Label Content="Account #4" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0"/>
+                <Button Content="Copy Email" HorizontalAlignment="Right" Margin="0,9,190,11" Width="85"/>
+                <Button Content="Copy Password" HorizontalAlignment="Right" Margin="0,9,100,11" Width="85"/>
+                <Button Content="View Contents" HorizontalAlignment="Right" Margin="0,9,10,11" Width="85"/>
+            </Grid>
+            <Grid>
+                <Label Content="Account #5" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0"/>
+                <Button Content="Copy Email" HorizontalAlignment="Right" Margin="0,9,190,11" Width="85"/>
+                <Button Content="Copy Password" HorizontalAlignment="Right" Margin="0,9,100,11" Width="85"/>
+                <Button Content="View Contents" HorizontalAlignment="Right" Margin="0,9,10,11" Width="85"/>
+            </Grid>
+            <Grid>
+                <Label Content="Account #6" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0"/>
+                <Button Content="Copy Email" HorizontalAlignment="Right" Margin="0,9,190,11" Width="85"/>
+                <Button Content="Copy Password" HorizontalAlignment="Right" Margin="0,9,100,11" Width="85"/>
+                <Button Content="View Contents" HorizontalAlignment="Right" Margin="0,9,10,11" Width="85"/>
+            </Grid>
+            <Grid>
+                <Label Content="Account #7" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0"/>
+                <Button Content="Copy Email" HorizontalAlignment="Right" Margin="0,9,190,11" Width="85"/>
+                <Button Content="Copy Password" HorizontalAlignment="Right" Margin="0,9,100,11" Width="85"/>
+                <Button Content="View Contents" HorizontalAlignment="Right" Margin="0,9,10,11" Width="85"/>
+            </Grid>
+            <Grid>
+                <Label Content="Account #8" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0"/>
+                <Button Content="Copy Email" HorizontalAlignment="Right" Margin="0,9,190,11" Width="85"/>
+                <Button Content="Copy Password" HorizontalAlignment="Right" Margin="0,9,100,11" Width="85"/>
+                <Button Content="View Contents" HorizontalAlignment="Right" Margin="0,9,10,11" Width="85"/>
+            </Grid>
+            <Grid>
+                <Label Content="Account #9" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0"/>
+                <Button Content="Copy Email" HorizontalAlignment="Right" Margin="0,9,190,11" Width="85"/>
+                <Button Content="Copy Password" HorizontalAlignment="Right" Margin="0,9,100,11" Width="85"/>
+                <Button Content="View Contents" HorizontalAlignment="Right" Margin="0,9,10,11" Width="85"/>
+            </Grid>
+            <Grid>
+                <Label Content="Account #10" FontSize="16" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0"/>
+                <Button Content="Copy Email" HorizontalAlignment="Right" Margin="0,9,190,11" Width="85"/>
+                <Button Content="Copy Password" HorizontalAlignment="Right" Margin="0,9,100,11" Width="85"/>
+                <Button Content="View Contents" HorizontalAlignment="Right" Margin="0,9,10,11" Width="85"/>
+            </Grid>
+        </StackPanel>
+    </StackPanel>
+</UserControl>
